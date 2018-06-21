@@ -1,0 +1,7 @@
+rm -rf .git
+git init
+git remote add origin git@github.com:JohnDoe/foobar.git
+git remote -v
+git add --all
+git commit -am "Initial commit"
+git push -f origin master
